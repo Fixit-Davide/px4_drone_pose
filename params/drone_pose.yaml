@@ -1,7 +1,8 @@
 drone_pose:
   ros__parameters:
+    use_sim_time: true
     base_frame: map
-    child_frame: x500_depth_0/base_link
+    child_frame: x500_lidar_0/base_link
     pub:
       pose: true
       vel: true
